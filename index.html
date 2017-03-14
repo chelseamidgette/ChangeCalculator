@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container" id="headline">
+            <h1>Change Calculator</h1>
+        </div>
+
+        <div class="container" id="inputs">
+            <div class="form-group">
+                <label for="amountDue">How much is due for the sale?</label>
+                <input type="number" name="amountDue" id="amountDue" value="" class="form-control">
+                <label for="amountPaid">How much has the customer given you?</label>
+                <input type="number" name="amountPaid" id="amountPaid" value="" class="form-control">
+                <button type="submit" name="button" class="btn btn-primary">Calculate</button>
+            </div>
+        </div>
+
+        <div class="container" id="dollarDiv">
+            <div class="row" id="dollarLabel">
+                <h1>Dollars</h1>
+            </div>
+            <div class="row" id="dollarAmount">
+              <div class="" id="dollars">
+
+              </div>
+            </div>
+        </div>
+
+        <div class="container" id="changeDiv">
+            <div class="row" id="changeLabels">
+                <div class="col-xs-3">
+                    <h2>Quarters</h2>
+                </div>
+                <div class="col-xs-3">
+                    <h2>Dimes</h2>
+                </div>
+                <div class="col-xs-3">
+                    <h2>Nickels</h2>
+                </div>
+                <div class="col-xs-3">
+                    <h2>Pennies</h2>
+                </div>
+            </div>
+            <div class="row" id="changeAmounts">
+                <div class="col-xs-3" id="quarters">
+
+                </div>
+                <div class="col-xs-3" id="dimes">
+
+                </div>
+                <div class="col-xs-3" id="nickels">
+
+                </div>
+                <div class="col-xs-3" id="pennies">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
